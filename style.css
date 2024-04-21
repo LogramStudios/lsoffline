@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #121212;
+} 
+
+h1, p {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+   background: rgb(38,58,83);
+background: linear-gradient(0deg, rgba(38,58,83,1) 50%, rgba(35,47,62,1) 75%, rgba(18,18,18,1) 100%);  
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+nav {
+  background-color: #121212;
+  margin: 0;
+  overflow: hidden;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li a {
+  background: #121212;
+  background: linear-gradient(0deg, rgba(170,170,170,0) 0%, rgba(18,18,18,0) 100%); 
+  color: #fff;
+  display: block;
+  line-height: 5.5em;
+  padding: 1em 3em;
+  text-decoration: none;
+  transition: background-color 1s;
+}
+nav ul li:first-child {
+  margin-right: auto;
+}
+nav ul li a.logo {
+   background-color: #121212;
+}
+nav ul li a:hover, nav ul li a:focus {
+  background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgba(18,18,18,1) 100%); 
+  color: #fff;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto
+}
