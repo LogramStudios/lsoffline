@@ -44,7 +44,8 @@ nav ul li a {
   line-height: 5.5em;
   padding: 1em 3em;
   text-decoration: none;
-  transition: background-color 1s;
+  opacity: 1;
+  transition: opacity 1s ease 0s;
 }
 nav ul li:first-child {
   margin-right: auto;
@@ -53,8 +54,7 @@ nav ul li a.logo {
    background-color: #121212;
 }
 nav ul li a:hover, nav ul li a:focus {
-  background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgba(18,18,18,1) 100%); 
-  color: #fff;
+  opacity: 0.6;
 }
 
 .center {
